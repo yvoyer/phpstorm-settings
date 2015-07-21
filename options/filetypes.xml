@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+  <component name="FileTypeManager" version="11">
+    <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;" />
+    <extensionMap>
+      <mapping ext="phpt" type="PHP" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="todo" type="PLAIN_TEXT" />
+      <mapping pattern="steps" type="PLAIN_TEXT" />
+      <mapping pattern="Context" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping ext="features" type="PLAIN_TEXT" />
+      <mapping ext="data" type="PLAIN_TEXT" />
+      <mapping pattern="*.yml.template" type="YAML" />
+      <mapping pattern="*.yml.*" type="YAML" />
+      <mapping ext="kata" type="YAML" />
+    </extensionMap>
+  </component>
+</application>
+

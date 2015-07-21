@@ -1,0 +1,4 @@
+com.intellij
+net.nicoulaj.idea.markdown
+mobi.hsz.idea.gitignore
+BashSupport
