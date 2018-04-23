@@ -3,7 +3,7 @@
 /**
 * @return ${TYPE_HINT}
 */
-public ${STATIC} function $propertyName()
+public ${STATIC} function $propertyName(): ${RETURN_TYPE}
 {
 #if (${STATIC} == "static")
 return self::$${FIELD_NAME};

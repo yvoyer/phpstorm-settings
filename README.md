@@ -17,5 +17,11 @@ Current configurations affected
 IDE settings (Global)
 
 * Files And Code Templates
+  * Arguments of construct will be put on multiple lines when number of args is greater equlas than 4.
+  * Getter will add PHP7 type hints, when the attribute is typed.
+  * When generating a method needed by an interface, a `throw new \RuntimeException()` is added, forcing you to implement it.
+  * Generate a PHPUnit test comes with a pending test method that automatically fail.
+  * Attribute starting with `_` will generate arguments without the `_`.
+
 * File Types
 * Editor

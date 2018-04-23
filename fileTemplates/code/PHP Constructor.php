@@ -1,10 +1,13 @@
 /**
-${PARAM_DOC}
+$PARAM_DOC.replace('$_', '$')
 */
 
-#set($parameters = $PARAM_LIST)
+#set($parameters = $PARAM_LIST.replace('$_', '$'))
+
 #if ($parameters.split(',').size() > 3)
-#set($parameters = $PARAM_LIST.replace(',', ",
-"))
+#set($parameters = "
+" + $parameters.replace(',', ",
+") + "
+")
 #end
-public function __construct($parameters) {${BODY}}
+public function __construct($parameters) {$BODY.replace('$_', '$')}
