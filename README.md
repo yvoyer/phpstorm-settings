@@ -5,6 +5,8 @@ Feel free to fork, to add your own settings.
 Install
 =======
 
+*Note:* Make sure `default-jdk` is installed on the system: `sudo apt-get install default-jdk`
+
 * Clone the project: `git clone http://github.com/yvoyer/phpstorm-settings`
 * Execute the `./compile-settings.sh`: It will generate a `settings.jar` file with the configured settings
 * Import the generated settings in your PHPStorm (**File->Import Settings...**), by selecting the `settings.jar` at the root of the project.
